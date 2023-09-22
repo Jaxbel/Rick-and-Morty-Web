@@ -63,7 +63,9 @@ function buscarValoresPorID() {
                                         mostrarModal(cardData);
                                     });
                                 });
+                               
                             })
+                            residentsElement.innerHTML = '';
                             })
                             .catch(error => {
                                 console.error('Error al obtener datos del resident:', error);
